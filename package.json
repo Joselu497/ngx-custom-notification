@@ -1,14 +1,15 @@
 {
-  "name": "workspace",
-  "version": "0.0.0",
+  "name": "ngx-custom-notification",
+  "version": "0.0.0-development",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "semantic-release": "semantic-release"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^16.2.0",
     "@angular/common": "^16.2.0",
@@ -36,6 +37,11 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "ng-packagr": "^16.2.0",
-    "typescript": "~5.1.3"
+    "typescript": "~5.1.3",
+    "semantic-release": "^24.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Joselu497/ngx-custom-notification.git"
   }
 }
