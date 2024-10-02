@@ -1,0 +1,16 @@
+{
+  "name": "ngx-custom-notification",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/animations": "^16.2.0",
+    "@angular/common": "^16.2.0",
+    "@angular/core": "^16.2.0",
+    "@angular/platform-browser": "^16.2.0",
+    "bootstrap": "^5.3.3",
+    "font-awesome": "^4.7.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}

@@ -1,0 +1,9 @@
+<ngx-custom-notification></ngx-custom-notification>
+<div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="d-flex gap-3">
+        <button class="btn btn-primary" (click)="showSuccessNotification('This is a notification')">Success message</button>
+        <button class="btn btn-danger" (click)="showErrorNotification('This is a notification')">Error message</button>
+        <button class="btn btn-warning" (click)="showWarningNotification('This is a notification')">Warning message</button>
+        <button class="btn btn-info" (click)="showInfoNotification('This is a notification')">Info message</button>
+    </div>
+</div>
